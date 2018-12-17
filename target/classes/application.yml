@@ -1,0 +1,7 @@
+spring:
+  resources:
+    chain:
+      strategy:
+        fixed:
+          enabled: true
+          version: test_version
